@@ -1,0 +1,141 @@
+/* Banner Style */
+.banner {
+  background-image: url(BannerCookie.png);
+  background-repeat: no-repeat;
+  background-size: cover;  /* This will make sure the image covers the entire width and height of the banner */
+  background-position: center;  /* Ensures the image is centered */
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;  /* Adjust the height based on your preference */
+  z-index: 1;
+}
+
+.banner p {
+  margin-top: 10px; 
+  font-size: 1.2em; 
+}
+
+/* Startknapp */
+.start-button {
+  position: absolute;
+  top: 10px; /* Plasseres under banneret */
+  left: 5%;
+  transform: translateX(-50%);
+  background-color: #5e5c56;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.start-button:hover {
+  background-color: #eb0a0a;
+}
+
+
+button {
+  border: none;
+  background: none;
+  padding: 0; /* Sørg for at denne verdien er riktig */
+  top: auto;
+  cursor: pointer;
+}
+
+button img {
+  display: block;
+}
+
+#cookie-counter {
+  position: fixed; /* Endre til 'fixed' for å holde det synlig under banneret */
+  top: 30px; /* Rett under banneret */
+  left: 20%;
+  transform: translateX(-50%);
+  font-size: 2.5em;
+  color: #857dee;
+  z-index: 999; /* Sørger for at det er foran bakgrunnen */
+}
+
+/* Container for kjeksene */
+.cookies-container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background-image: url(Cbackground.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Kjeks */
+.cookie {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: opacity 0.5s ease; /* For fading */
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.cat-npi-container {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.cat-facts {
+  margin-bottom: 20px;
+}
+
+.cat-fact {
+  background-color: #444;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.cat-image-container {
+  margin-top: 20px;
+}
+
+.cat-image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+

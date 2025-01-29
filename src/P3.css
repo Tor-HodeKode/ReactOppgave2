@@ -1,0 +1,41 @@
+.users-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .users-container input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 80%;
+  }
+  
+  .users-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px 0;
+  }
+  
+  .users-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .users-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .users-container li {
+    padding: 5px;
+    background-color: #ddd;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
